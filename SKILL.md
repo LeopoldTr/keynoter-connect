@@ -17,8 +17,14 @@ that matches what the user asked.
 
 Pick the right reference based on what the user asked, and read only that one:
 
-- **Make a launch/announcement video of this repo now** (the default) — read the
-  repo, build a brief, push it → read `references/create-video.md`.
+- **Make a guided walkthrough video of this app** (the default, best quality) —
+  run the app, capture ordered screenshots of the key screens, write a one-line
+  narration script per screen, push screenshots + script → read
+  `references/walkthrough.md`. This is the primary case: the video SHOWS the real
+  app, narrated by your script.
+- **Make a launch/announcement teaser of this repo** (no screenshots — motion
+  graphics only; use when the app can't be run/screenshotted) — read the repo,
+  build a brief, push it → read `references/create-video.md`.
 - **Install the @keynoter PR bot** (a workflow that renders a demo when someone
   comments `@keynoter` on a PR) — when the user asks to set up / install the bot
   ("create pr workflow", "install the keynoter PR bot") → read
